@@ -26,13 +26,13 @@ What this add-in does is create HTML either with 'clean' tags or tag attributes.
 
 ExportToHTML was developed for Microsoft Office 2016 and tested in Windows 10 and OS X 10.11. Compatibility with the previous Office versions is neither tested nor guaranteed, although the add-in is supposed to work properly in Office 2010/2011 and later.
 
-As user forms support in Office 2016 for Mac is currently not implemented, there is no GUI to make changes to the behavior of the add-in. Options are instead has to be set manually in the configuration file.
+As user forms support in Office 2016 for Mac is currently not implemented, there is no GUI to make changes to the behavior of the add-in. Instead, options have to be set manually in the configuration file.
 
-In Office 2011 the GUI should, theoretically, work as it does in Windows.
+In Office 2011, the GUI should, theoretically, work as it does in Windows.
 
 4. Installation
 
-The ExportToHTML.xlam file can be opened directly and stays active for the current Excel session. For the permanent installation use the 'Excel Add-ins' menu in Excel.
+The ExportToHTML.xlam file can be opened directly and will stay active for the current Excel session. For the permanent installation use the 'Excel Add-ins' menu in Excel.
 
 On Mac, place the additional file 'WriteToFile.scpt' in the '/Users/Username/Library/Application Scripts/com.microsoft.Excel/' folder. Create the folder if necessary (mind the uppercase in the name).
 
@@ -42,7 +42,7 @@ If either the Registry key or the file are not present, the program will create 
 
 5. Usage
 
-ExportToHTML creates a custom Ribbon tab with buttons 'Save As', 'Save As And Open' and 'Table Format'.
+ExportToHTML creates a custom Ribbon tab with the buttons 'Save As', 'Save As And Open' and 'Table Format'.
 
 Select the cells range that you want to be saved as HTML and press 'Save As' or 'Save As And Open'. 'Table Format' will either open the GUI to make changes to the format of the output (Windows) or it will open the configuration file 'ExportToHTML.plist' (Office 2016 for Mac).
 
