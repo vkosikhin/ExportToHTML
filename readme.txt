@@ -1,6 +1,6 @@
 ExportToHTML Microsoft Excel add-in
 
-Current Version: 2.0.1
+Current Version: 2.0.2
 
 Valeriy Kosikhin, 2016
 
